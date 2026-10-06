@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Sudhanshu Shrivastav</title>
+<meta name="description" content="Get in touch with Sudhanshu Shrivastav about projects, internships and developer roles.">
+<meta name="author" content="Sudhanshu Shrivastav">
+<meta name="theme-color" content="#EEF0F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1120" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Sudhanshu Shrivastav">
+<meta property="og:description" content="Get in touch with Sudhanshu Shrivastav about projects, internships and developer roles.">
+<meta property="og:site_name" content="Sudhanshu Shrivastav">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="index.html" class="mark" data-site="name-upper">SUDHANSHU SHRIVASTAV</a>
+    <div class="bar-right">
+      <nav id="site-nav" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="contact.html" aria-current="page">Contact</a></nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true" class="ti"></span></button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true" class="mi"></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="wrap page">
+  <h1 class="page-title">Contact me</h1>
+  <div class="contact">
+    <div class="reveal">
+      <p class="lead">Have a project, an opportunity or a question? Send a message and your email app will open with it ready to send.</p>
+      <ul class="direct">
+        <li><span>Email</span><a data-email href="#"><span data-email-text>Set in app.js</span></a> <button type="button" class="copy" id="copy-email" hidden>Copy</button></li>
+        <li data-wrap="github" hidden><span>GitHub</span><a data-link="github" target="_blank" rel="noopener"></a></li>
+        <li data-wrap="linkedin" hidden><span>LinkedIn</span><a data-link="linkedin" target="_blank" rel="noopener"></a></li>
+        <li><span>Reply time</span>Usually within 48 hours</li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contact-form" novalidate>
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" autocomplete="name" placeholder="John Smith" required minlength="2" aria-describedby="name-err">
+      <p class="err" id="name-err" role="alert"></p>
+      <label for="email">Your email</label>
+      <input type="email" id="email" name="email" autocomplete="email" placeholder="john@example.com" required aria-describedby="email-err">
+      <p class="err" id="email-err" role="alert"></p>
+      <label for="message">Message <span class="muted" id="msg-count">0 / 1000</span></label>
+      <textarea id="message" name="message" rows="6" maxlength="1000" placeholder="How can I help you?" required minlength="10" aria-describedby="message-err"></textarea>
+      <p class="err" id="message-err" role="alert"></p>
+      <input type="text" name="website" id="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <button type="submit" class="btn btn-solid">Send message</button>
+      <p class="status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span data-year>2026</span> <span data-site="name">Sudhanshu Shrivastav</span></p>
+    <ul class="social" data-social aria-label="Social links"></ul>
+    <p><a href="#top" class="to-top" id="to-top">Back to top &uarr;</a></p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>

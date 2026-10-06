@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Sudhanshu Shrivastav</title>
+<meta name="description" content="Selected projects by Sudhanshu Shrivastav: a portfolio website, an interactive task app and a Java and MySQL database management tool.">
+<meta name="author" content="Sudhanshu Shrivastav">
+<meta name="theme-color" content="#EEF0F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1120" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projects | Sudhanshu Shrivastav">
+<meta property="og:description" content="Selected projects by Sudhanshu Shrivastav: a portfolio website, an interactive task app and a Java and MySQL database management tool.">
+<meta property="og:site_name" content="Sudhanshu Shrivastav">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="index.html" class="mark" data-site="name-upper">SUDHANSHU SHRIVASTAV</a>
+    <div class="bar-right">
+      <nav id="site-nav" aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a><a href="projects.html" aria-current="page">Projects</a><a href="contact.html">Contact</a></nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme"><span aria-hidden="true" class="ti"></span></button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true" class="mi"></span></button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="wrap page">
+  <h1 class="page-title">Projects</h1>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button type="button" class="chip is-on" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" class="chip" data-filter="Front-end" aria-pressed="false">Front-end</button>
+    <button type="button" class="chip" data-filter="Web application" aria-pressed="false">Web application</button>
+    <button type="button" class="chip" data-filter="Backend and SQL" aria-pressed="false">Backend and SQL</button>
+  </div>
+  <p class="count" id="proj-count" aria-live="polite"></p>
+  <ol class="projects">
+    <li class="project reveal" id="portfolio" data-kind="Front-end">
+      <p class="kind">Front-end</p>
+      <div><h2>Personal portfolio website</h2><p>A clean, responsive multi-page portfolio laid out with CSS Flexbox and Grid, with a dark theme, accessible navigation and no framework dependencies.</p><ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul></div>
+      <a class="go" data-project-link="portfolio" href="contact.html" >Live demo</a>
+    </li>
+    <li class="project reveal" id="tasks" data-kind="Web application">
+      <p class="kind">Web application</p>
+      <div><h2>Interactive task app</h2><p>A lightweight productivity app with interactive task management that saves to local storage.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div>
+      <a class="go" data-project-link="tasks" href="contact.html" >Live demo</a>
+    </li>
+    <li class="project reveal" id="dbtool" data-kind="Backend and SQL">
+      <p class="kind">Backend and SQL</p>
+      <div><h2>Database management tool</h2><p>A schema design and query execution system that demonstrates relational database skills.</p><ul class="tags"><li>Java</li><li>MySQL</li></ul></div>
+      <a class="go" data-project-link="dbtool" href="contact.html" >View code</a>
+    </li>
+  </ol>
+  <p class="empty" id="proj-empty" hidden>No projects in this category yet.</p>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span data-year>2026</span> <span data-site="name">Sudhanshu Shrivastav</span></p>
+    <ul class="social" data-social aria-label="Social links"></ul>
+    <p><a href="#top" class="to-top" id="to-top">Back to top &uarr;</a></p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
