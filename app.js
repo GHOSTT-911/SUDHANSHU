@@ -5,7 +5,7 @@
    ========================================================================== */
 const SITE = {
   name: "Sudhanshu Shrivastav",
-  email: "abc@gmail.com",                     // e.g. "you@gmail.com"  <-- required for the contact form
+  email: "abc@gmail.com123",                     // e.g. "you@gmail.com"  <-- required for the contact form
   github: "",                    // e.g. "https://github.com/yourname"
   linkedin: "",                  // e.g. "https://www.linkedin.com/in/yourname"
   resume: "",                    // e.g. "resume.pdf" (put the file in this folder)
